@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .herder {
+    width: 100%;
+    border-bottom:1px solid #ccc; 
+    position: fixed;
+    background: #fff;
+  }
+  .herder-1 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 0 5px;
+    z-index: 9;
+  }
+  
+  .herder-1-0-1 {
+    margin: 0 auto;
+  }
+  .herder-1-0-1 a {
+    font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+  }
+  .herder-1-0-1 img{
+     width: 40px;
+     vertical-align: middle;
+  }
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .nav-input{
+    padding:5px 0px;
+  }
+  .nav li {
+    padding:15px;
+    display: inline-block;
+  }
+  /* 下拉框 */
+  .nav-1 a:first-child{
+    border-bottom: 2px solid #42b983;
+  }
+  .nav-1:hover .nav-dropdown {
+    display: block;
+    z-index: 1;
+ 
+  }
+  .nav-1:hover .nav-dropdown a{
+    border: none;
+  }
+  .nav-2:hover .nav-dropdown {
+    display: block;
+    z-index: 1;
+  }
+  .nav-3:hover a{
+    border-bottom:2px solid  #42b983;
+  }
+  .nav-4:hover .nav-dropdown {
+    display: block;
+    z-index: 1;
+  }
+  .nav-5:hover .nav-dropdown {
+    display: block;
+    z-index: 1;
+  }
+  .nav-6:hover a{
+    border-bottom:2px solid  #42b983;
+  }
+  .nav input {
+    border-radius: 20px 20px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  /* 下拉框属性 */
+  .nav-dropdown {
+    display: none;
+    box-sizing: border-box;
+    max-height: calc(100vh - 61px);
+    overflow-y: auto;
+    position: absolute;
+    margin-left: -100px;
+    top: 50px;
+    width: 120px;
+    background-color: #fff;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    border-bottom-color: #ccc;
+    text-align: left;
+    border-radius: 4px;
+    white-space: nowrap;
+    
+  }
+  .nav-dropdown ul {
+    width: 100%;
+    border-bottom: 1px solid #ccc
+  }
+  .nav-dropdown li {
+    line-height: 1.8em;
+    margin: 0;
+    display: block;
+    padding: 0 5px;
+    width: 80px;
+ z-index: 10;
+  }
+  
+  .nav-dropdown li a {
+    font-size: 12px;
+       z-index: 1;
+  }
+  .arrow {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -1px;
+    margin-left: 6px;
+    margin-right: -14px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #4f5959;
+  }
+
+
+
+
+  
+  
+ 
